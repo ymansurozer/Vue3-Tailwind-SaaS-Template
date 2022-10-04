@@ -1,0 +1,19 @@
+header:
+    title: Vue SPA Template
+    subtitle: Vue + Typescript + Tailwind + Others
+
+storeContent:
+    count: Count is
+    doubleCount: Double the count is
+
+button:
+    name: Increase
+
+menu:
+    name: Menu
+    dark: Dark
+    light: Light
+
+layout:
+    default: Default Layout
+    notFound: 404 Layout

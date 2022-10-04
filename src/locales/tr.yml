@@ -1,0 +1,19 @@
+header:
+    title: Vue SPA Şablonu
+    subtitle: Vue + Typescript + Tailwind + Diğerleri
+
+storeContent:
+    count: Sayı
+    doubleCount: Sayının iki katı
+
+button:
+    name: Artır
+
+menu:
+    name: Menü
+    dark: Karanlık
+    light: Aydınlık
+
+layout:
+    default: Varsayılan Düzen
+    notFound: 404 Düzeni
