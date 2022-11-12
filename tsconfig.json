@@ -1,32 +1,32 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "module": "ESNext",
-        "target": "ESNext",
-        "lib": ["ESNext", "DOM"],
-        "strict": true,
-        "esModuleInterop": true,
-        "jsx": "preserve",
-        "skipLibCheck": true,
-        "moduleResolution": "Node",
-        "resolveJsonModule": true,
-        "strictNullChecks": true,
-        "allowJs": true,
-        "forceConsistentCasingInFileNames": true,
-        "types": [
-            "vite/client",
-            "vue/ref-macros",
-            "vite-plugin-pages/client",
-            "vite-plugin-vue-layouts/client",
-            "unplugin-icons/types/vue",
-            "vite-plugin-pwa/client"
-        ],
-        "sourceMap": true,
-        "isolatedModules": true,
-        "paths": {
-            "@/*": ["src/*"]
-        },
-        "outDir": "dist"
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ESNext",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "strict": true,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "skipLibCheck": true,
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "types": [
+      "vite/client",
+      "vue/ref-macros",
+      "vite-plugin-pages/client",
+      "vite-plugin-vue-layouts/client",
+      "unplugin-icons/types/vue",
+      "vite-plugin-pwa/client"
+    ],
+    "sourceMap": true,
+    "isolatedModules": true,
+    "paths": {
+      "@/*": ["src/*"]
     },
-    "exclude": ["dist", "node_modules"]
+    "outDir": "dist"
+  },
+  "exclude": ["dist", "node_modules"]
 }

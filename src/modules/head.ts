@@ -1,7 +1,7 @@
-import { type UserModule } from "@/modules/types";
 import { createHead } from "@vueuse/head";
+import { type UserModule } from "@/modules/types";
 
-export const install: UserModule = ({ app, router }) => {
-    const head = createHead();
-    app.use(head);
+export const install: UserModule = ({ app }) => {
+  const head = createHead();
+  app.use(head);
 };

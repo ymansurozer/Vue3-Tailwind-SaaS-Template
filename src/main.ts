@@ -1,6 +1,6 @@
 import { createApp } from "vue";
 import { router } from "@/modules/router";
-import { UserModule } from "@/modules/types";
+import type { UserModule } from "@/modules/types";
 import App from "@/App.vue";
 
 import "@/styles/tailwind.css";
@@ -13,7 +13,7 @@ app.use(router);
 
 // Install user modules
 Object.values(
-    import.meta.glob<{ install: UserModule }>("./modules/*.ts", { eager: true })
+  import.meta.glob<{ install: UserModule }>("./modules/*.ts", { eager: true })
 ).forEach(i => i.install?.({ app, router }));
 
 // Mount app to DOM
