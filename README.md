@@ -1,6 +1,6 @@
-# Vue-SPA-Template
+# Vue3 + Tailwind Saas Template
 
-Opinionated Vue SPA Template
+Opinionated Vue3 SPA template with Tailwind and utilities
 
 ## Features
 
@@ -20,4 +20,4 @@ Opinionated Vue SPA Template
 
 ## Why?
 
-This template is heavily inspired by [Vitesse](https://github.com/antfu/vitesse). But I needed an SPA version with Tailwind CSS + Headless UI (along with related plugins and configurations). And most importantly, I had to build this template from the ground up to understand how Vitesse worked so well and how I can extend it for my needs in the future.
+This template is heavily inspired by [Vitesse](https://github.com/antfu/vitesse). But, for my SaaS projects, I needed an SPA version with Tailwind CSS + Headless UI (along with related plugins and configurations). And most importantly, I had to build this template from the ground up to understand how Vitesse worked so well and how I can extend it for my needs in the future.
