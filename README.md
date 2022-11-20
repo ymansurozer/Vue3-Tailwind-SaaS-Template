@@ -1,6 +1,6 @@
 # Vue 3 + Tailwind SaaS Template
 
-Opinionated Vue3 SPA template with Tailwind and utilities
+Opinionated Vue 3 SPA template with Tailwind and utilities
 
 ## Features
 
